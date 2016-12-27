@@ -1,0 +1,103 @@
+body {
+  background: white;
+  margin: auto; }
+
+div.contenedor-principal {
+  padding: 30px;
+  padding-left: 25%;
+  font-family: "open sans",sans-serif; }
+
+nav.menu-principal {
+  font-family: "Open sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 10px; }
+  nav.menu-principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row;
+    width: 1000px; }
+    nav.menu-principal ul li {
+      word-spacing: 10px; }
+      nav.menu-principal ul li a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #15284B; }
+
+span.contenedor-principal__titulo {
+  text-transform: capitalize;
+  font-family: "raleway", sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  display: flex;
+  margin-top: -500px;
+  margin-left: 30%; }
+
+p.contenedor-principal__descripcion {
+  color: white;
+  font-family: "raleway", sans-serif;
+  font-size: 12px;
+  display: flex;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 30%;
+  text-align: left;
+  line-height: 2;
+  opacity: 0.5; }
+
+div.contenedor-secundario {
+  padding: 30px;
+  width: 1000px;
+  padding-left: 25%;
+  font-family: "open sans",sans-serif;
+  position: relative;
+  display: inline-block; }
+
+input[type=search] {
+  width: 900px;
+  height: 80px;
+  border-radius: 2px;
+  font-family: "raleway", sans-serif;
+  font-size: 12px;
+  color: grey;
+  padding-left: 2%;
+  text-transform: capitalize;
+  margin-top: 290px;
+  border-style: none;
+  box-shadow: 0px 2px 2px 0px #E6E6E6; }
+
+input[type=search2] {
+  width: 100px;
+  height: 80px;
+  background-color: #84dbf0;
+  border-style: none;
+  box-shadow: 0px 2px 2px 0px #E6E6E6;
+  position: absolute; }
+
+input[placeholder=search] {
+  font-family: "raleway", sans-serif;
+  font-size: 12px;
+  color: white;
+  justify-content: center;
+  margin-top: 19.2%; }
+
+span.contenedor-principal__imagen {
+  display: inline-flex;
+  padding: 40px; }
+
+span.contenedor-principal__separador {
+  padding: 20px;
+  margin-top: 30px; }
+
+span.contenedor-principal__servicios {
+  color: #15284B;
+  font-family: "raleway", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-left: 60px;
+  padding-right: 110px;
+  display: inline-flex; }
+
+/*# sourceMappingURL=styles.css.map */
